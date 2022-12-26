@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.container-fluid{
+    background-color: aquamarine;
+}
+
+.row{
+    border: 1px solid black;
+    height: 80px;
+}
+
+.col-3{
+    border: 1px solid red;
+}

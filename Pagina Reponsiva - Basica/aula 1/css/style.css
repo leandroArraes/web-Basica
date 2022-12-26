@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*layout mobile*/
+
+body{
+    background-color:red;
+    height: 900px;
+
+}
+div{
+    width: 100vw;
+    height: 10vw;
+    background-color: aqua;
+}
+
+
+/*layout Tablet*/
+@media (min-width:768px){
+
+    body{ background-color: green;  display: flex; justify-content: center;}
+      h1{color: yellow;}
+}
+
+/*layout desktop*/
+
+@media (min-width:960px){
+    body{ background-color: blue;  display: flex; justify-content: center;}
+      h1{color: white;}
+
+}
+
+/*layout widescreen*/
+@media (min-width:1200px){
+    body{ background-color: grey;  display: flex; justify-content: center;}
+      h1{color: purple;}
+}
+
+
+
+

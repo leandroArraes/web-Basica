@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.super_box {
+    width: 1024px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #d65c44;
+    position: relative;
+}
+
+header{
+    width: 1024px;
+    height: 200px;
+    background-image: url(../imagens/logo.jpg);
+    background-color: #101a23;
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+}
+
+.txt_titulo{
+    color:#d65c44;
+    height: 30px;
+    position: absolute;
+    left: 310px;
+    bottom: 90px;
+    font-weight: bold;
+}
+
+nav{
+    height: 35px;
+    position: absolute;
+    top: 155px;
+    left: 580px;
+}
+
+ul{
+    display: flex;
+    color: white;
+}
+
+ul li a{
+    padding: 10px;
+    color: #fec945;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: rgb(9, 69, 121);
+    border-radius: 15px;
+    width: 20px;
+    height: 30px;
+
+}
+
+.destaque_01{
+    width: 1000px;
+    height: 170px;
+    background-image: url(../imagens/banner.jpg);
+    position: absolute;
+    top: 210px;
+}
+
+.box_artigos{
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    top: 395px;
+    display: flex;
+}
+
+article{
+    width: 322px;
+    height: 257px;
+    margin: 0 6px;
+}
+.imag_artigo_1{
+    background-image: url(../imagens/destaque01.jpg);
+    width: 322px;
+    height: 257px;
+}
+.imag_artigo_2{
+    background-image: url(../imagens/destaque02.jpg);
+    width: 322px;
+    height: 257px;
+}
+
+.imag_artigo_3{
+    background-image: url(../imagens/destaque03.jpg);
+    width: 322px;
+    height: 257px;
+}
+
+.texto_artigo h2{
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+
+footer{
+    width: 1024px;
+    height: 50px;
+    background-color: #fec945;
+    position: relative;
+
+}
+
+.Rodape_nav {
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.Rodape_02{
+    color: #000000;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+   
+}

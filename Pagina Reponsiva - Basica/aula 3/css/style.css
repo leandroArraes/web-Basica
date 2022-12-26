@@ -1,0 +1,71 @@
+@charset "UTF-8";
+body{
+    background-color: black;
+}
+
+header{
+    margin-bottom: 5px;
+
+}
+
+.navbar-brand img{
+width: 180px;
+}
+.cabecalho{
+    background-color: #eaeaea;
+}
+
+#div-card{
+    padding: 0px 50px 0px 70px;
+    
+}
+.card{
+    margin: 25px;
+    background-color: black;
+    color: white;
+}
+
+#destaque{
+    background-color: #969696;
+}
+
+#destaque img{
+margin-top: 20px;
+}
+
+.btn-primary{
+    background-color: #eaeaea;
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+#form_1{
+    background-color: #ffffff;
+    margin: 40px;
+    padding: 30px;
+    height: 320px;
+}
+
+.form-group row {
+        background-color: aqua;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ffooter{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
